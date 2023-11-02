@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendore/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="vendore/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendore/css.css">
+
+    <link rel="stylesheet" href="vendore/font awesome/fonts/all.min.css">
+    <title>Document</title>
+</head>
+
+<body class="dark">
+
+    <h1 class="text-center text-info-emphasis">TO DO</h1>
+
+    <div class="container col-md-6">
+        <div class="card dark">
+            <div class="card-body ">
+                <div class="form-group">
+
+                    <input type="text" name="" id="m" class="form-control text-center text-info-emphasis  inputTask"
+                        placeholder="Add a task"> <!-- task -->
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-secondary mt-3 add">
+                        ADD
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-info-emphasis mt-2 ">List </h1>
+    <div class="container col-md-6">
+        <div class="card dark">
+            <div class="card-body ">
+                <div id="deleteAll" class="d-grid my-3 ">
+                    <button class="btn btn-danger">Delete All Tasks</button>
+                </div>
+
+                <h5 class="text-dark text-center">You have <span id="numberOFTasks"></span> Tasks</h5>
+                <div class=" cheked alert alert-warning  field ">
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="vendore/js.js"></script>
+</body>
+
+</html>
